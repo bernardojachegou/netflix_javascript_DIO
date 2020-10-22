@@ -24,4 +24,4 @@
  
 ## :computer: Running:
 
-1 - Just download the project and open it using any IDE.
+1 - Just download the project and open it using any IDE or go to https://bernardojachegou.github.io/netflix_javascript_DIO/
