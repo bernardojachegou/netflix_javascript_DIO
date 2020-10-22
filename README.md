@@ -1,9 +1,13 @@
 <h1 align="center">
-    <img alt="preview application" src="" width="400px"/>
+    <img alt="preview application" src="image/netflix.jpg" width="300px"/>
 </h1>
 
 <h1 align="center">
     Netflix Clone
+</h1>
+
+<h1 align="center">
+ <img alt="preview application" src="image/git.jpg" width="400px"/>
 </h1>
 
 ## :book: About:
