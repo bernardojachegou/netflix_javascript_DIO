@@ -89,8 +89,8 @@ header nav a:hover {
 
 .main-movie {
     background-color: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30));
-    background-image: url('/image/vikings.jpg');
-    background-size: auto;
+    background-image: url('https://image.tmdb.org/t/p/original/wPOmXBgjy4xrxxw5gyVFDfhx8Ii.jpg');
+    background-size: cover;
     height: 500px;
     display: flex;
     flex-direction: column;
