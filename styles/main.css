@@ -27,7 +27,7 @@ header .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 16px;
+    margin: 0 30px;
 }
 
 header .container .logo {
@@ -39,7 +39,7 @@ header .container .logo {
 
 header nav a {
     color: #aaa;
-    margin-right: 10px;
+    padding: 0 16px;
     transition: 200ms;
     font-size: 24px;
     text-decoration: none;
@@ -53,8 +53,8 @@ header nav a:hover {
 
 .main-movie {
     background: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url('/image/vikings.jpg');
-    background-size: cover;
-    height: 400px;
+    background-size: auto;
+    height: 500px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -62,18 +62,24 @@ header nav a:hover {
 }
 
 .main-movie .wrapper {
-    margin-left: 24px;
+    margin: 0 0 32px 24px;
     width: 60%;
+}
+
+.main-movie .description-box {
+    max-width: 600px;
+}
+
+.main-movie .title {
+    margin-top: 5%;
+    font-size: 96px;
+    letter-spacing: 2px;
 }
 
 .main-movie .description {
     margin-top: 8px;
     margin-bottom: 48px;
-}
-
-.main-movie .title {
-    margin-top: 5%;
-    font-size: 80px;
+    font-size: 24px;
 }
 
 /* Buttons */
@@ -82,13 +88,14 @@ header nav a:hover {
     background-color: rgba(0, 0, 0, 0.5);
     border: none;
     color: white;
-    padding: 16px 32px;
+    padding: 24px 40px;
     border-radius: 8px;
     margin-right: 16px;
     font-weight: bold;
     cursor: pointer;
     outline: none;
     transition: 400ms ease-in-out;
+    font-size: 16px;
 }
 
 .button:hover {
