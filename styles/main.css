@@ -1,24 +1,61 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-/* Global */
-
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue:400|Noto+Sans+TC:400');
 :root {
     --red: #E50914;
     --black: #141414;
 }
 
+/* Type-scale settings */
+
+html {
+    font-size: 100%;
+}
+
+body {
+    background-color: var(--black);
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 400;
+    line-height: 1.35;
+    color: #FFF;
+}
+
+h1, h2, h3, h4, h5 {
+    margin: 2.75rem 0 1.05rem;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 400;
+    line-height: 1.15;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 4.209rem;
+}
+
+h2 {
+    font-size: 3.157rem;
+}
+
+h3 {
+    font-size: 2.369rem;
+}
+
+h4 {
+    font-size: 1.777rem;
+}
+
+h5 {
+    font-size: 1.333rem;
+}
+
+small, .text_small {
+    font-size: 0.75rem;
+}
+
+/* Global */
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
-
-/* base */
-
-body {
-    background: var(--black);
-    font-family: 'Bebas Neue', cursive;
-    color: #fff;
-    font-size: 24px;
 }
 
 /* Menu */
@@ -27,21 +64,20 @@ header .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 30px;
+    margin: 0 2rem;
 }
 
 header .container .logo {
-    color: var(--red);
-    font-size: 64px;
-    padding: 0 16px;
-    letter-spacing: 2px;
+    height: 6rem;
+    padding: 0 1rem;
+    padding: 0.5rem 0;
 }
 
 header nav a {
     color: #aaa;
-    padding: 0 16px;
+    padding: 0 1rem;
     transition: 200ms;
-    font-size: 24px;
+    font-size: 1.5rem;
     text-decoration: none;
 }
 
@@ -59,43 +95,42 @@ header nav a:hover {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    margin-bottom: 0.2rem;
 }
 
 .main-movie .wrapper {
-    margin: 0 0 32px 24px;
+    margin: 0 0 2rem 1.5rem;
     width: 60%;
 }
 
 .main-movie .description-box {
-    max-width: 600px;
+    max-width: 40rem;
 }
 
 .main-movie .title {
-    margin-top: 5%;
-    font-size: 96px;
-    letter-spacing: 2px;
+    font-size: 6rem;
 }
 
 .main-movie .description {
-    margin-top: 8px;
-    margin-bottom: 48px;
-    font-size: 24px;
+    font-family: "Helvetica Neue";
+    margin-bottom: 3rem;
+    font-size: 1.5rem;
 }
 
 /* Buttons */
 
 .button {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: var(--red);
     border: none;
     color: white;
-    padding: 24px 40px;
+    padding: 1.5rem 2.5rem;
     border-radius: 8px;
-    margin-right: 16px;
+    margin-right: 1rem;
     font-weight: bold;
     cursor: pointer;
     outline: none;
     transition: 400ms ease-in-out;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .button:hover {
@@ -104,7 +139,7 @@ header nav a:hover {
 }
 
 .button i {
-    margin-right: 8px;
+    margin-right: 0.5rem;
 }
 
 /* carousel */
